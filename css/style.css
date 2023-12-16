@@ -385,6 +385,9 @@ ol {
 
 .div-info-portfolio {
   position: relative;
+  width: 360px;
+  height: 300px;
+  flex-shrink: 0;
   overflow: hidden;
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
